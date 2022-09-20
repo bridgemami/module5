@@ -5,7 +5,7 @@ export default function Layout({children, home}) {
 return (
     <div>
         <Head>
-            <title>Module 4-Basic Next.js App</title>
+            <title>Module 5-Basic Next.js App</title>
         </Head>
         <main>{children}</main>
         {!home && (
