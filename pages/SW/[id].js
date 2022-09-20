@@ -7,6 +7,7 @@ import CharacterList from '../../components/author';
 //create an instance of the getStaticPaths() to report next all possible dynamic urls
 export async function getStaticPaths() {
     const paths = getAllIds(true);
+    console.log('sw/[id]/js ' + paths);
     return {
         paths,
         fallback: false,
@@ -16,6 +17,7 @@ export async function getStaticPaths() {
 //create an instance of the getStaticProps() to return data for one person
 export async function getStaticProps({params}) {
     const itemData = await getData(true, params.id);
+    console.log('sw/[id]/js ' + itemData);
     return  {
         props: {
             itemData
