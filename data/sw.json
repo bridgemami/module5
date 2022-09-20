@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-   "quote":"\"In my experience, there is no such thing as luck.\"",
+   "quote":"\"Hello, there.\"",
     "author": "Obi-Wan Kenobi",
     "source":"A New Hope",
     "friend" : [5],
-    "youtube": "https://youtu.be/oSNNav2eYwk",
+    "youtube": "https://youtu.be/wFBB-Xp9GZI",
     "youtubeTitle": "Go to the Clip"
   },
   {
@@ -29,10 +29,82 @@
   {
     "id": 4,
    "quote": "\"I Have A Very Bad Feeling About This.\"",
-    "author": "Everyone in Star Wars",
+    "author": "\"I Have A Very Bad Feeling About This.\"",
     "source":"Star Wars Canon",
     "friend": [8],
     "youtube": "https://youtu.be/3ogIuFclGE8",
     "youtubeTitle": "Go to the Clip"
-    }
+    },
+    {
+    "id": 5,
+    "quote":"\"Anakin, You're Breaking My Heart. You're Going Down A Path I Can't Follow.\"",
+    "author": "Padmé Amidala",
+    "source":"Star Wars: Revenge of the Sith",
+    "friend": [7],
+    "youtube": "https://youtu.be/J8QLKWvVK14",
+    "youtubeTitle": "Go to the Clip"
+    },
+    {
+    "id": 6,
+    "quote":"\"The garbage will do!\"",
+    "author": "Rey",
+    "source":"Star Wars: The Force Awakens",
+    "friend": [7],
+    "youtube": "https://youtu.be/6aj6CCQCM1Y",
+    "youtubeTitle": "Go to the Clip"
+    },
+    {
+      "id": 7,
+      "quote":"\"I can bring you in warm, or I can bring you in cold.\"",
+      "author": "Din Djarin",
+      "source":"Star Wars: The Mandalorian",
+      "friend": [7],
+      "youtube": "https://youtu.be/EUT-QTexKbo",
+      "youtubeTitle": "Go to the Clip"
+      },
+      {
+        "id": 8,
+        "quote":"\"You Failed, Your Highness. I Am A Jedi, Like My Father Before Me.\"",
+        "author": "Luke Skywalker",
+        "source":"Star Wars: The Return of the Jedi",
+        "friend": [7],
+        "youtube": "https://youtu.be/1JuHWuq0_e8",
+        "youtubeTitle": "Go to the Clip"
+        },
+        {
+          "id": 9,
+          "quote":"\"Did You Ever Hear The Tragedy Of Darth Plagueis The Wise?\"",
+          "author": "Darth Sidious aka Sheev Palpatine",
+          "source":"Star Wars: The Revenge of the Sith",
+          "friend": [7],
+          "youtube": "https://youtu.be/05dT34hGRdg",
+          "youtubeTitle": "Go to the Clip"
+          },
+          {
+            "id": 10,
+            "quote":"\"I don't like sand. It's coarse, rough, irritating, and it gets everywhere.\"",
+            "author": "Anakin Skywalker",
+            "source":"Star Wars: Attack of the Clones",
+            "friend": [7],
+            "youtube": "https://youtu.be/2tLf1JO5bvE",
+            "youtubeTitle": "Go to the Clip"
+            },
+            {
+              "id": 11,
+              "quote":"\"Be Careful Not To Choke On Your Aspirations, Director!\"",
+              "author": "Darth Vader",
+              "source":"Star Wars: Rogue One",
+              "friend": [7],
+              "youtube": "https://youtu.be/YeV6hXPr44k",
+              "youtubeTitle": "Go to the Clip"
+              },
+              {
+                "id": 12,
+                "quote":"\"Raarrwwrararrreerrrrrr!\"",
+                "author": "Chewbacca",
+                "source":"Star Wars: The Empire Strikes Back",
+                "friend": [7],
+                "youtube": "https://youtu.be/2FNv59QOZ5o?t=103",
+                "youtubeTitle": "Go to the Clip"
+                }
 ]

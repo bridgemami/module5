@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 //getAllIds is a function from lib/data.js
 import { getAllIds, getData } from '../../lib/data';
 import Layout from '../../components/layout';

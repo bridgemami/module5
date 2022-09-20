@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export function CharacterLink ( { tag, id, author }) {
-  return <Link key={"link"+ id} href={tag+id}>
+  return <Link key={"link"+ id} href={`/` + tag+ `/${id}`}>
             <a key={id} className="list-group-item list-group-item-action">{author}</a>
          </Link>
 }
@@ -16,7 +16,7 @@ export default function CharacterList ( { sw, isNotSW } ) {
     return <article className="col-md-4 col-12 bg-secondary m-auto border border-4 rounded">
       <PersonSWChar isNotSW={isNotSW} />
       <div className="list-group">
-        {sw.map( ({id, author}) => <CharacterLink key={"pl"+id} tag={tag} id={id} author={author} /> )}
+        {sw.friend.map( ({id, author}) => <CharacterLink key={"pl"+id} tag={tag} id={id} author={author} /> )}
       </div>
     </article>
     
