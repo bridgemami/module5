@@ -7,7 +7,7 @@ const dataJ = path.join( process.cwd(), 'data');
 
 // console.log(dataJ);
 export default function handler(req, res) {
-  const filePath = path.join( dataJ, 'author.json' );
+  const filePath = path.join( dataJ, 'characters.json' );
 //This will give me a string
   const jsonData = fs.readFileSync( filePath, 'utf8' );
 //convert string from file into json array object

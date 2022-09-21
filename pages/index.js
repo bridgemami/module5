@@ -7,27 +7,34 @@ import styles from '../styles/Home.module.css'
 import CharacterList from "../components/list"
 
 export async function getStaticProps() {
-  const starWars = await getSortedList(true);
-  const notStarWars= await getSortedList(false);
+  const itemData = getSortedList();
   return {
     props: {
-        starwarss: starWars,
-        notstarwarss: notStarWars
+       itemData
     }
   }
 }
-export default function Home({ starwarss, notstarwarss }) {
+export default function Home({ itemData }) {
   return (
       <Layout home>
-        <div className="container-fluid">
+        <header className="container-fluid">
           <div className="row">
-            <h1 className="text-center mb-4">A Character List</h1>
+            <h1 className="text-center mb-4">Star Wars Characters</h1>
           </div>
+          </header>
+          <section className="container-fluid">
           <div className='row'>
-          <CharacterList sw={starwarss} />
-          <CharacterList sw={notstarwarss} isNotSW />
+          <div className='col'>
+            <ol>
+            {itemData.map(({id, author}) => (
+              <Link key={id} href ={`/${id}`}>
+                <a><li>{author}</li></a>
+              </Link>
+            ))}
+            </ol>
           </div>
-        </div>
+          </div>
+        </section>
       </Layout>
   );
 }
