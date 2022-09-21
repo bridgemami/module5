@@ -25,10 +25,10 @@ export default function Home({ itemData }) {
           <section className="container-fluid">
           <div className='row'>
           <div className='col'>
-            <ol>
+            <ol className="list-group list-group-numbered">
             {itemData.map(({id, author}) => (
               <Link key={id} href ={`/${id}`}>
-                <a><li>{author}</li></a>
+                <a><li className="list-group-item list-group-item-action">{author}</li></a>
               </Link>
             ))}
             </ol>

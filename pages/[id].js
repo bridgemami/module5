@@ -34,6 +34,9 @@ export default function Character ({itemData}) {
           <div className="col-md-8">
             <div className="card-body">
               <h2 className="card-title fw-bold text-decoration-underline">{itemData.author}</h2>
+              <h4>Quote:</h4>
+              <p>{itemData.quote}</p>
+              <button className="btn btn-success"><a href={itemData.youtube}>Watch the Quote</a></button>
               <h5 className="my-3">Affiliation:</h5>
                 {itemData.affiliation.map((affiliations) => (
                   <ul>
@@ -43,11 +46,11 @@ export default function Character ({itemData}) {
                   </ul>
                 ))}
                 
-                {itemData.related ? // if there are related classes, display this header 
+                {itemData.related ? // if there are related id, display this header 
                   <h5 className="my-3">Type: {itemData.type}</h5> : null
                 }
                 <h4>Allies:</h4>
-                {itemData.related ? // if there are related cids, generate a list of them
+                {itemData.related ? // if there are related ids, generate a list of them
                   itemData.related.map(
                     ({id, author}) => (
                       <ul>
