@@ -28,48 +28,48 @@ export async function getStaticProps({params}) {
 // make a react component to display all details about a person when a dynamic route matches, like id 1 or id 2
 export default function Character ({itemData}) {
     return (
-        <Layout>
-        <div className="card mx-auto card-class mt-4 p-0 border border-dark">
-        <div className="row">
-          <div className="col-md-8">
-            <div className="card-body">
-              <h2 className="card-title fw-bold text-decoration-underline">{itemData.author}</h2>
-              <h4>Quote:</h4>
-              <p>{itemData.quote}</p>
-              <button className="btn btn-success"><a href={itemData.youtube}>Watch the Quote</a></button>
-              <h5 className="my-3">Affiliation:</h5>
-                {itemData.affiliation.map((affiliations) => (
-                  <ul>
-                    <li>
-                      {affiliations}
+      <Layout>
+      <div className="card mx-auto card-class mt-4 p-0 border border-dark">
+      <div className="row">
+        <div className="col-md-8">
+          <div className="card-body">
+            <h2 className="card-title fw-bold text-decoration-underline">{itemData.author}</h2>
+            <h4>Quote:</h4>
+            <p>{itemData.quote}</p>
+            <button className="btn btn-success"><a href={itemData.youtube}>Watch the Quote</a></button>
+            <h5 className="my-3">Affiliation:</h5>
+              {itemData.affiliation.map((affiliations) => (
+                <ul>
+                  <li>
+                    {affiliations}
+                  </li>
+                </ul>
+              ))}
+              
+              {itemData.related ? // if there are related id, display this header 
+                <h5 className="my-3">Type: {itemData.type}</h5> : null
+              }
+              <h4>Allies:</h4>
+              {itemData.related ? // if there are related ids, generate a list of them
+                itemData.related.map(
+                  ({id, author}) => (
+                    <ul>
+                      <li>
+                        <Link key={id} href={`${id}`}>
+                          <a>{author}</a>
+                        </Link>
                     </li>
-                  </ul>
-                ))}
-                
-                {itemData.related ? // if there are related id, display this header 
-                  <h5 className="my-3">Type: {itemData.type}</h5> : null
-                }
-                <h4>Allies:</h4>
-                {itemData.related ? // if there are related ids, generate a list of them
-                  itemData.related.map(
-                    ({id, author}) => (
-                      <ul>
-                        <li>
-                          <Link key={id} href={`${id}`}>
-                            <a>{author}</a>
-                          </Link>
-                      </li>
-                      </ul>
-                      
-                    )
-                  ) 
-                  : null
-                }
-            </div>
+                    </ul>
+                    
+                  )
+                ) 
+                : null
+              }
           </div>
         </div>
       </div>
-      
-        </Layout>
-    );
+    </div>
+    
+      </Layout>
+  );
 }

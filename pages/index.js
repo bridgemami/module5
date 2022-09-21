@@ -26,11 +26,12 @@ export default function Home({ itemData }) {
           <div className='row'>
           <div className='col'>
             <ol className="list-group list-group-numbered">
-            {itemData.map(({id, author}) => (
+            {itemData ? 
+            itemData.map(({id, author}) => (
               <Link key={id} href ={`/${id}`}>
                 <a><li className="list-group-item list-group-item-action">{author}</li></a>
               </Link>
-            ))}
+            )) : null}
             </ol>
           </div>
           </div>
