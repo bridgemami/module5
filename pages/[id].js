@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 //getAllIds is a function from lib/data.js
 import { getAllIds, getDataCommon } from '../lib/data';
 import Layout from '../components/layout';
@@ -32,7 +33,7 @@ export default function Character ({itemData}) {
         <div className="row">
           <div className="col-md-8">
             <div className="card-body">
-              <h2 className="card-title fw-bold text-decoration-underline">{classData.author}</h2>
+              <h2 className="card-title fw-bold text-decoration-underline">{itemData.author}</h2>
               <h5 className="my-3">Affiliation:</h5>
                 {itemData.affiliation.map((affiliations) => (
                   <ul>
@@ -43,9 +44,9 @@ export default function Character ({itemData}) {
                 ))}
                 
                 {itemData.related ? // if there are related classes, display this header 
-                  <h5 className="my-3">Type:{classData.type}</h5> : null
+                  <h5 className="my-3">Type: {itemData.type}</h5> : null
                 }
-
+                <h4>Allies:</h4>
                 {itemData.related ? // if there are related cids, generate a list of them
                   itemData.related.map(
                     ({id, author}) => (
