@@ -7,7 +7,7 @@
   },
   {
     "owner_id": 3,
-    "related_ids": [1, 2,],
+    "related_ids": [1, 2],
     "id": 2,
     "relations": "Captian Rex"
   },
