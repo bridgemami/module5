@@ -4,107 +4,102 @@
    "quote":"\"Hello, there.\"",
     "author": "Obi-Wan Kenobi",
     "source":"A New Hope",
-    "friend" : [5],
     "youtube": "https://youtu.be/wFBB-Xp9GZI",
-    "youtubeTitle": "Go to the Clip"
+    "affiliation" : ["Jedi", "Galactic Republic", "Rebellion"]
   },
   {
     "id": 2,
     "quote":"\"In My Experience, When You Think You Understand The Force, You Realize Just How Little You Know.\"",
     "author": "Ahsoka Tano",
     "source":"Star Wars: Rebels",
-    "friend" : [6],
     "youtube": "https://youtu.be/v254mgxMmG8",
-    "youtubeTitle": "Go to the Clip"
+    "affiliation" : ["Jedi", "Galactic Republic", "Rebellion"]
   },
   {
     "id": 3,
     "quote":"\"I used to believe that being a good soldier meant doing everything they told you. That's how they engineered us. But we're not droids. We're not programmed. You have to learn to make your own decisions\"",
-    "author": "Captain Rex",
+    "author": "CT-7567 aka Captain Rex",
     "source":"Star Wars: The Clone Wars",
-    "friend": [7],
     "youtube": "https://youtu.be/hf2YgGikLAE",
-    "youtubeTitle": "Go to the Clip"
+    "affiliation" : ["Clone Army", "Galactic Republic", "Rebellion"]
   },
   {
     "id": 4,
    "quote": "\"That might be the Mandalorian way. But it's not my way. Not anymore.\"",
     "author": "Sabine Wren",
     "source":"Star Wars: Rebels",
-    "friend": [8],
     "youtube": "https://youtu.be/TBd5QNyg2NQ?t=244",
-    "youtubeTitle": "Go to the Clip"
+    "affiliation" : ["Galactic Empire", "Rebellion", "Mandalorian"]
     },
     {
     "id": 5,
     "quote":"\"Anakin, You're Breaking My Heart. You're Going Down A Path I Can't Follow.\"",
     "author": "Padmé Amidala",
     "source":"Star Wars: Revenge of the Sith",
-    "friend": [7],
     "youtube": "https://youtu.be/J8QLKWvVK14",
-    "youtubeTitle": "Go to the Clip"
+    "affiliation" : ["Royal House of Naboo","Galactic Republic", "Galactic Empire"]
     },
     {
     "id": 6,
     "quote":"\"The garbage will do!\"",
     "author": "Rey",
     "source":"Star Wars: The Force Awakens",
-    "friend": [7],
     "youtube": "https://youtu.be/6aj6CCQCM1Y",
-    "youtubeTitle": "Go to the Clip"
+    "affiliation" : ["Jedi", "Resistance"]
+
     },
     {
       "id": 7,
       "quote":"\"I can bring you in warm, or I can bring you in cold.\"",
       "author": "Din Djarin",
       "source":"Star Wars: The Mandalorian",
-      "friend": [7],
       "youtube": "https://youtu.be/EUT-QTexKbo",
-      "youtubeTitle": "Go to the Clip"
+      "affiliation" : ["Mandalorian", "Bounty Hunters' Guild"]
+
       },
       {
         "id": 8,
         "quote":"\"You Failed, Your Highness. I Am A Jedi, Like My Father Before Me.\"",
         "author": "Luke Skywalker",
         "source":"Star Wars: The Return of the Jedi",
-        "friend": [7],
         "youtube": "https://youtu.be/1JuHWuq0_e8",
-        "youtubeTitle": "Go to the Clip"
+        "affiliation" : ["Jedi", "New Republic", "Rebellion", "Resistance"]
+
         },
         {
           "id": 9,
           "quote":"\"Did You Ever Hear The Tragedy Of Darth Plagueis The Wise?\"",
           "author": "Darth Sidious aka Sheev Palpatine",
           "source":"Star Wars: The Revenge of the Sith",
-          "friend": [7],
           "youtube": "https://youtu.be/05dT34hGRdg",
-          "youtubeTitle": "Go to the Clip"
+          "affiliation" : ["Sith", "Galactic Republic", "Royal House of NAboo", "Galactic Empire", "Sith Eternal"]
+
           },
           {
             "id": 10,
             "quote":"\"I don't like sand. It's coarse, rough, irritating, and it gets everywhere.\"",
             "author": "Anakin Skywalker",
             "source":"Star Wars: Attack of the Clones",
-            "friend": [7],
             "youtube": "https://youtu.be/2tLf1JO5bvE",
-            "youtubeTitle": "Go to the Clip"
+            "affiliation" : ["Jedi", "Galactic Republic"]
+
             },
             {
               "id": 11,
               "quote":"\"Be Careful Not To Choke On Your Aspirations, Director!\"",
               "author": "Darth Vader",
               "source":"Star Wars: Rogue One",
-              "friend": [7],
               "youtube": "https://youtu.be/YeV6hXPr44k",
-              "youtubeTitle": "Go to the Clip"
+              "affiliation" : ["Sith", "Galactic Empire"]
+
               },
               {
                 "id": 12,
                 "quote":"\"Raarrwwrararrreerrrrrr!\"",
                 "author": "Chewbacca",
                 "source":"Star Wars: The Empire Strikes Back",
-                "friend": [7],
                 "youtube": "https://youtu.be/2FNv59QOZ5o?t=103",
-                "youtubeTitle": "Go to the Clip"
+                "affiliation" : ["New Republic", "Rebellion", "Resistance", "Galactic Republic",""]
+
                 }
 ]
