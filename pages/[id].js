@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Link from 'next/link';
 //getAllIds is a function from lib/data.js
-import { getAllIds, getData } from '../../lib/data';
-import Layout from '../../components/layout';
-import CharacterList from '../../components/author';
+import { getAllIds, getData } from '../lib/data';
+import Layout from '../components/layout';
+import CharacterList from '../components/author';
 
 //create an instance of the getStaticPaths() to report next all possible dynamic urls
 export async function getStaticPaths() {
