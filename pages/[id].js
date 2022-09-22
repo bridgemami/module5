@@ -53,10 +53,9 @@ export default function Character ({itemData}) {
               }
               <h4>Allies:</h4>
               {itemData.related ? // if there are related ids, generate a list of them
-                itemData.related.map(
-                  ({id, author}) => (
-                    <ul>
-                      <li key={id}>
+                itemData.related.map(({id, author}) => (
+                    <ul key={id}>
+                      <li>
                         <Link href={`${id}`}>
                           <a>{author}</a>
                         </Link>
