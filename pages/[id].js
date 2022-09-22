@@ -28,7 +28,7 @@ export async function getStaticProps({params}) {
 // make a react component to display all details about a person when a dynamic route matches, like id 1 or id 2
 export default function Character ({itemData}) {
     return (
-      <Layout>
+      <Layout character>
       <div className="card mx-auto card-class mt-4 p-0 border border-dark">
       <div className="row">
         <div className="col-md-8">
