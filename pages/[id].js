@@ -39,11 +39,13 @@ export default function Character ({itemData}) {
             <button className="btn btn-success"><a href={itemData.youtube}>Watch the Quote</a></button>
             <h5 className="my-3">Affiliation:</h5>
               {itemData.affiliation.map((affiliations) => (
+                <div key={affiliations}>
                 <ul>
                   <li>
                     {affiliations}
                   </li>
                 </ul>
+                </div>
               ))}
               
               {itemData.related ? // if there are related id, display this header 
