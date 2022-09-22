@@ -23,7 +23,7 @@ describe('Home', () => {
     it('renders a section', () => {
       render(<Home />)
   
-      const section = screen.getByRole('section')
+      const section = screen.getByQuery(`<section>`)
   
       expect(section).toBeInTheDocument()
     })

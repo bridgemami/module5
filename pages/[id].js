@@ -56,11 +56,13 @@ export default function Character ({itemData}) {
                 itemData.related.map(
                   ({id, author}) => (
                     <ul>
+                      <Link key={id} href={`${id}`}>
                       <li>
-                        <Link key={id} href={`${id}`}>
+                        {/* <Link key={id} href={`${id}`}> */}
                           <a>{author}</a>
-                        </Link>
+                        {/* </Link> */}
                     </li>
+                    </Link>
                     </ul>
                     
                   )
