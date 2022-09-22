@@ -16,6 +16,10 @@ a {
   box-sizing: border-box;
 }
 
+ol {
+  width: 50vw;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
