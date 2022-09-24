@@ -37,7 +37,14 @@ export default function Character ({itemData}) {
             <h2 className="card-title fw-bold text-decoration-underline">{itemData.author}</h2>
             <h4>Quote:</h4>
             <p>{itemData.quote}</p>
-
+            <div className="d-block">
+            <Image
+            src={itemData.image}
+            alt={itemData.alt}
+            width={itemData.width}
+            height={itemData.height}
+              />
+              </div>
             <button className="btn btn-success"><a href={itemData.youtube}>Watch the Quote</a></button>
             <h5 className="my-3">Affiliation:</h5>
               {itemData.affiliation.map((affiliations) => (
