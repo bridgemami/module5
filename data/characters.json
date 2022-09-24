@@ -6,7 +6,9 @@
     "type": "Jedi",
     "source":"A New Hope",
     "youtube": "https://youtu.be/wFBB-Xp9GZI",
-    "affiliation" : ["Jedi", "Galactic Republic", "Rebellion"]
+    "affiliation" : ["Jedi", "Galactic Republic", "Rebellion"],
+    "image":"/images/Obi_Wan_Kenobi.webp",
+    "alt": "Obi-Wan Kenobi"
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "type" : "Rebel",
     "source":"Star Wars: Rebels",
     "youtube": "https://youtu.be/v254mgxMmG8",
-    "affiliation" : ["Jedi", "Galactic Republic", "Rebellion"]
+    "affiliation" : ["Jedi", "Galactic Republic", "Rebellion"],
+    "image":"/images/Ahsoka_Tano.webp",
+    "alt": "Ahsoka Tano"
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "type" : "Republic",
     "source":"Star Wars: The Clone Wars",
     "youtube": "https://youtu.be/hf2YgGikLAE",
-    "affiliation" : ["Clone Army", "Galactic Republic", "Rebellion"]
+    "affiliation" : ["Clone Army", "Galactic Republic", "Rebellion"],
+    "image":"/images/Captin_rex.webp",
+    "alt": "Captain Rex"
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "type":"Rebel",
     "source":"Star Wars: Rebels",
     "youtube": "https://youtu.be/TBd5QNyg2NQ?t=244",
-    "affiliation" : ["Galactic Empire", "Rebellion", "Mandalorian"]
+    "affiliation" : ["Galactic Empire", "Rebellion", "Mandalorian"],
+    "image":"/images/Sabine_wren.webp",
+    "alt": "Sabine Wren"
     },
     {
     "id": 5,
@@ -42,7 +50,9 @@
     "type" :"Republic",
     "source":"Star Wars: Revenge of the Sith",
     "youtube": "https://youtu.be/J8QLKWvVK14",
-    "affiliation" : ["Royal House of Naboo","Galactic Republic", "Galactic Empire"]
+    "affiliation" : ["Royal House of Naboo","Galactic Republic", "Galactic Empire"],
+    "image":"/images/Padme_Amidala.webp",
+    "alt": "Padme Amidala"
     },
     {
     "id": 6,
@@ -51,8 +61,9 @@
     "type":"Jedi",
     "source":"Star Wars: The Force Awakens",
     "youtube": "https://youtu.be/6aj6CCQCM1Y",
-    "affiliation" : ["Jedi", "Resistance"]
-
+    "affiliation" : ["Jedi", "Resistance"],
+    "image":"/images/Rey_Skywalker.webp",
+    "alt": "Rey Skywalker"
     },
     {
       "id": 7,
@@ -61,8 +72,9 @@
       "source":"Star Wars: The Mandalorian",
       "type":"Bounty Hunter",
       "youtube": "https://youtu.be/EUT-QTexKbo",
-      "affiliation" : ["Mandalorian", "Bounty Hunters' Guild"]
-
+      "affiliation" : ["Mandalorian", "Bounty Hunters' Guild"],
+      "image":"/images/Din_Djarin.webp",
+       "alt": "Din Djarin"
       },
       {
         "id": 8,
@@ -71,8 +83,9 @@
         "type":"Jedi",
         "source":"Star Wars: The Return of the Jedi",
         "youtube": "https://youtu.be/1JuHWuq0_e8",
-        "affiliation" : ["Jedi", "New Republic", "Rebellion", "Resistance"]
-
+        "affiliation" : ["Jedi", "New Republic", "Rebellion", "Resistance"],
+        "image":"/images/Luke_Skywalker.webp",
+        "alt": "Luke Skywalker"
         },
         {
           "id": 9,
@@ -81,8 +94,9 @@
           "type":"Sith",
           "source":"Star Wars: The Revenge of the Sith",
           "youtube": "https://youtu.be/05dT34hGRdg",
-          "affiliation" : ["Sith", "Galactic Republic", "Royal House of NAboo", "Galactic Empire", "Sith Eternal"]
-
+          "affiliation" : ["Sith", "Galactic Republic", "Royal House of NAboo", "Galactic Empire", "Sith Eternal"],
+          "image":"/images/Darth_Sidious.webp",
+         "alt": "Darth Sidious"
           },
           {
             "id": 10,
@@ -91,8 +105,9 @@
             "type":"Jedi",
             "source":"Star Wars: Attack of the Clones",
             "youtube": "https://youtu.be/2tLf1JO5bvE",
-            "affiliation" : ["Jedi", "Galactic Republic"]
-
+            "affiliation" : ["Jedi", "Galactic Republic"],
+            "image":"/images/Anikin_Skywalker.webp",
+            "alt": "Anikin Skywalker"
             },
             {
               "id": 11,
@@ -101,8 +116,9 @@
               "type":"Sith",
               "source":"Star Wars: Rogue One",
               "youtube": "https://youtu.be/YeV6hXPr44k",
-              "affiliation" : ["Sith", "Galactic Empire"]
-
+              "affiliation" : ["Sith", "Galactic Empire"],
+              "image":"/images/Darth_Vader.webp",
+              "alt": "Darth Vader"
               },
               {
                 "id": 12,
@@ -111,6 +127,8 @@
                 "type":"Rebel",
                 "source":"Star Wars: The Empire Strikes Back",
                 "youtube": "https://youtu.be/2FNv59QOZ5o?t=103",
-                "affiliation" : ["New Republic", "Rebellion", "Resistance", "Galactic Republic",""]
+                "affiliation" : ["New Republic", "Rebellion", "Resistance", "Galactic Republic"],
+                "image":"/images/Chewbacca.webp",
+               "alt": "Chewbacca"
                 }
 ]
