@@ -13,18 +13,7 @@ describe('Home', () => {
     const heading = screen.getByRole('heading', {
       name: /Star Wars Characters/i,
     })
-
     expect(heading).toBeInTheDocument()
+
   })
 });
-//describe('Character' is a the label
-describe('Home', () => {
-    //it('renders a heading', tells you what it will say
-    it('renders a section', () => {
-      render(<Home />)
-  
-      const section = screen.getByRole(`<section>`)
-  
-      expect(section).toBeInTheDocument()
-    })
-  })
