@@ -61,7 +61,7 @@
   },
   { 
     "owner_id": 12,
-    "related_ids": [1, 8],
+    "related_ids": [1, 8, 6],
     "id": 11,
     "relations": "Chewie"
   },
