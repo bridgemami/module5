@@ -25,6 +25,15 @@ ol {
   justify-content: center;
 }
 
+header {
+  color: snow;
+}
+
+main{
+  background-color: black;
+  color: black;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
