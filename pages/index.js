@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Layout from '../components/layout';
 import { getSortedList } from '../lib/data';
 // import PersonSWChar from "../components/list"
-import styles from '../styles/Home.module.css'
+import s from '../styles/Home.module.css'
 import CharacterList from "../components/list"
 
 export async function getStaticProps() {
@@ -22,7 +22,7 @@ export default function Home({ itemData }) {
             <h1 className="text-center mb-4">Star Wars Characters</h1>
           </div>
           </header>
-          <section className="container-fluid">
+          <section className='container-fluid center'>
           <div className='row'>
           <div className='col'>
             <ol className="list-group list-group-numbered">
