@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Module 4</title>
+        <title>Star Wars Characters</title>
       </Head>
   <Component {...pageProps} />
     </>
